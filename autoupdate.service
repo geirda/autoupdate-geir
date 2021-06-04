@@ -4,7 +4,7 @@
 
 [Service]
  Type=simple
- ExecStart=/usr/local/bin/logupdates.sh
+ ExecStart=/usr/bin/logupdates.sh
  TimeoutStopSec=180
  KillMode=process
  KillSignal=SIGINT
